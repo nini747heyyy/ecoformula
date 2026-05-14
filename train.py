@@ -8,6 +8,6 @@ def predict_delivery_time(distance, weight):
 with open('delivery_model.pkl', 'wb') as f:
     pickle.dump(predict_delivery_time, f)
 
-print(" delivery_model.pkl created successfully!")
+print("delivery_model.pkl created successfully!")
 print(f"File saved at: delivery_model.pkl")
 print("You can now commit this file to GitHub")
