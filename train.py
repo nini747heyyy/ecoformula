@@ -10,4 +10,3 @@ with open('delivery_model.pkl', 'wb') as f:
 
 print("delivery_model.pkl created successfully!")
 print(f"File saved at: delivery_model.pkl")
-print("You can now commit this file to GitHub")
